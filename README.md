@@ -43,9 +43,7 @@ chmod +x shadowsocksR.sh
   - 日志文件路径：/var/log/shadowsocks.log
   - 代码安装目录：/usr/local/shadowsocks
 
-## 二、网络加速一键脚本
-三选一  
-![](https://www.94ish.me/usr/uploads/2017/11/557206173.png)
+## 二、网络加速安装
 #### 使用方法：
 使用root用户登录，运行以下命令：
 ```bash
@@ -53,6 +51,9 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-
 chmod +x tcp.sh
 ./tcp.sh
 ```
+三选一  
+![](https://www.94ish.me/usr/uploads/2017/11/557206173.png)
+
 安装完成后，脚本提示如下：
 ```bash
 Congratulations, ShadowsocksR server install completed!
