@@ -29,8 +29,8 @@ chmod +x shadowsocksR.sh
 /etc/init.d/shadowsocks status
 ```
 
-- 可以查看 ShadowsocksR 进程是否已经启动。 
-本脚本安装完成后，已将 ShadowsocksR 自动加入开机自启动。
+  可以查看 ShadowsocksR 进程是否已经启动。 
+  本脚本安装完成后，已将 ShadowsocksR 自动加入开机自启动。
 
 - 使用命令：
   - 启动：/etc/init.d/shadowsocks start
@@ -81,5 +81,5 @@ Enjoy it!
   - [OpenWRT](https://github.com/shadowsocks/openwrt-shadowsocks)
 
 ## 参考资料
-- [Linux网络优化加速一键脚本](https://www.94ish.me/1635.html)
 - [Shadowsocks非官方网站](https://shadowsocks.be/9.html)
+- [Linux网络优化加速一键脚本](https://www.94ish.me/1635.html)
