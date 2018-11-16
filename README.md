@@ -24,7 +24,7 @@ chmod +x shadowsocksR.sh
 ./shadowsocksR.sh uninstall
 ```
 
-#### 状态查看
+#### 状态查看：
 安装完成后即已后台启动 ShadowsocksR ，运行：
 ```bash
 /etc/init.d/shadowsocks status
