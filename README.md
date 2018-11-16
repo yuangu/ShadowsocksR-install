@@ -51,7 +51,7 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-
 chmod +x tcp.sh
 ./tcp.sh
 ```
-三选一  
+三选一，推荐锐速（请先安装内核）  
 ![](https://www.94ish.me/usr/uploads/2017/11/557206173.png)
 
 安装完成后，脚本提示如下：
