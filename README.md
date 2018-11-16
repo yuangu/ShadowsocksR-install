@@ -24,13 +24,13 @@ chmod +x shadowsocksR.sh
 ./shadowsocksR.sh uninstall
 ```
 
-#### 安装完成后即已后台启动 ShadowsocksR ，运行：
+#### 状态查看
+安装完成后即已后台启动 ShadowsocksR ，运行：
 ```bash
 /etc/init.d/shadowsocks status
 ```
-
-  可以查看 ShadowsocksR 进程是否已经启动。 
-  本脚本安装完成后，已将 ShadowsocksR 自动加入开机自启动。
+可以查看 ShadowsocksR 进程是否已经启动。 
+本脚本安装完成后，已将 ShadowsocksR 自动加入开机自启动。
 
 #### 使用命令：
   - 启动：/etc/init.d/shadowsocks start
@@ -68,7 +68,7 @@ Welcome to visit:https://shadowsocks.be/9.html
 Enjoy it!
 ````
 
-## SSR 客户端
+## 三、SSR 客户端
 #### 功能介绍和使用方法
   - [大概是萌新也看得懂的SSR功能详细介绍&使用教程](https://lolico.moe/tutorial/shadowsocksr.html)
   
@@ -80,6 +80,6 @@ Enjoy it!
   - [iOS](https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help)
   - [OpenWRT](https://github.com/shadowsocks/openwrt-shadowsocks)
 
-## 参考资料
+## 四、参考资料
 - [Shadowsocks非官方网站](https://shadowsocks.be/9.html)
 - [Linux网络优化加速一键脚本](https://www.94ish.me/1635.html)
