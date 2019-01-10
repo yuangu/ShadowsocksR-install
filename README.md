@@ -106,5 +106,6 @@ Enjoy it!
   - [OpenWRT](https://github.com/shadowsocks/openwrt-shadowsocks)
 
 ## 四、参考资料
+- [doubi-SSR](https://github.com/cn2t/doubi-SSR)
 - [Shadowsocks非官方网站](https://shadowsocks.be/9.html)
 - [Linux网络优化加速一键脚本](https://www.94ish.me/1635.html)
