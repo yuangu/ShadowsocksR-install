@@ -29,27 +29,27 @@
   - 混淆（obfs）：建议 plain
   
 #### 使用方法：  
-##### 脚本1(推荐)：
+#### 脚本1(推荐)：
 使用root用户登录，运行以下命令：  
 ```bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh
 chmod +x ssr.sh 
 bash ssr.sh
 ```
-##### 脚本2：  
+#### 脚本2：  
 使用root用户登录，运行以下命令：  
 ```bash
 wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
 chmod +x shadowsocksR.sh
 ./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
 ```
-#### 卸载方法：   
+###### 卸载方法：   
 使用 root 用户登录，运行以下命令：
 ```bash
 ./shadowsocksR.sh uninstall
 ```
 
-#### 状态查看：
+###### 状态查看：
 安装完成后即已后台启动 ShadowsocksR ，运行：
 ```bash
 /etc/init.d/shadowsocks status
@@ -57,13 +57,13 @@ chmod +x shadowsocksR.sh
 可以查看 ShadowsocksR 进程是否已经启动。 
 本脚本安装完成后，已将 ShadowsocksR 自动加入开机自启动。
 
-#### 使用命令：
+###### 使用命令：
   - 启动：/etc/init.d/shadowsocks start
   - 停止：/etc/init.d/shadowsocks stop
   - 重启：/etc/init.d/shadowsocks restart
   - 状态：/etc/init.d/shadowsocks status
   
-#### 配置文件：
+###### 配置文件：
   - 配置文件路径：/etc/shadowsocks.json
   - 日志文件路径：/var/log/shadowsocks.log
   - 代码安装目录：/usr/local/shadowsocks
@@ -76,7 +76,7 @@ wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-
 chmod +x tcp.sh
 tcp.sh
 ```
-三选一，推荐锐速（请先安装内核）  
+三选一，推荐锐速或BBRplus（请先安装内核）  
 ![](https://s1.ax1x.com/2018/12/24/F6XveP.png)
 
 安装完成后，脚本提示如下：
