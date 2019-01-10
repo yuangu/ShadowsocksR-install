@@ -17,17 +17,26 @@
 # ShadowsocksR-install
 ## 一、SSR安装
 #### 适用环境：  
-  - 系统支持：CentOS，Debian，Ubuntu  
+  - 系统支持：CentOS6+ / Debian6+ / Ubuntu14+
   - 内存要求：≥128M 
+  - KVM
 
 #### 默认配置：
-  - 服务器端口：自己设定（如不设定，默认从 9000-19999 之间随机生成）
-  - 密码：自己设定（如不设定，默认为 teddysun.com）
-  - 加密方式：自己设定（如不设定，默认为 aes-256-cfb）
-  - 协议（Protocol）：自己设定（如不设定，默认为 origin）
-  - 混淆（obfs）：自己设定（如不设定，默认为 plain）
+  - 服务器端口：默认或自己设定
+  - 密码：默认或自己设定
+  - 加密方式：建议 aes-256-cfb
+  - 协议（Protocol）：建议 origin
+  - 混淆（obfs）：建议 plain
   
 #### 使用方法：  
+##### 脚本1(推荐)：
+使用root用户登录，运行以下命令：  
+```bash
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh
+chmod +x ssr.sh 
+bash ssr.sh
+```
+##### 脚本2：  
 使用root用户登录，运行以下命令：  
 ```bash
 wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
@@ -65,10 +74,10 @@ chmod +x shadowsocksR.sh
 ```bash
 wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
 chmod +x tcp.sh
-./tcp.sh
+tcp.sh
 ```
 三选一，推荐锐速（请先安装内核）  
-![](https://www.94ish.me/usr/uploads/2017/11/557206173.png)
+![](https://s1.ax1x.com/2018/12/24/F6XveP.png)
 
 安装完成后，脚本提示如下：
 ```bash
